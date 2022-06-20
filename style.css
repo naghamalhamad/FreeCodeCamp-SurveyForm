@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+body{
+
+    background-image: url("pexels 1.jpg");
+    background-position:100%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', 'sans-serif';
+    color:white;
+ 
+    
+}
+#title,#description{
+    text-align: center;
+    font-weight: 400;
+}
+
+#description{
+    position: relative;
+    bottom: 20px;
+    font-weight: 50;
+
+}
+.main{
+width:55%;
+
+}
+.color{
+    background: rgba(27, 27, 50, 0.9);
+    /*#1b1b32;*/
+}
+.survey-form{
+    padding:5%;
+    padding-left:6%;
+ 
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+.name-label,.email-label,.age-label{
+    margin:5px;
+    display: block;
+}
+.name,.email,.age,#dropdown,#textarea{
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 20px;
+    width:95%;
+    color: #636362;
+    font-size: 16px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+#textarea{
+    height: 100px;
+    border-radius: 0;
+    
+}
+.label{
+  display: block;
+  padding: 5px;
+
+}
+.radio,.checkbox{
+    margin-bottom: 20px;
+}
+
+#submit{
+   border-radius: 5px;
+   border-color: #237a38;
+   background-color: #237a38;
+   color: #ffffff;
+   padding: 10px;
+   width: 95%;
+   margin: 10px;
+text-align: center;
+}
