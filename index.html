@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <main class="main"> 
+     <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform Name</p>
+
+  <form class="survey-form color">
+      <label class="name-label">Name</label>
+      <input class="name" type="text" value="Enter Your Name" required placeholder="Enter Your Name">
+      <label class="email-label">Email</label>
+      <input class="email" type="email" value="Enter Your Email" required placeholder="Enter Your Email">
+      <label class="age-label">Age(optional)</label>
+      <input class="age" type="number" value="age" min ="0" max="50" placeholder="Age">
+      <br>
+      
+      <label class="label">Which option best describes your current role?</label>
+      <select id="dropdown">
+          <option>Select current role </option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+      </select>
+      <section class="radio">
+      <label class="label">Would you recommend freeCodeCamp to a friend?<label><br>
+      <input id="radio1" name ="group1" type="radio" value="Definitely">
+      <label>Definitely</label><br>
+      <input id="radio2" name ="group1" type="radio" value="Maybe">
+      <label>Maybe</label><br>
+      <input id="radio3" name ="group1" type="radio" value="Not sure">
+      <label>Not sure</label><br>
+    </section>
+    <section class="checkbox">
+      <label class="label">What would you like to see improved? (Check all that apply)</label>
+      <input id="" name ="" type="checkbox" value="Front">
+      <label for="Front-end Projects">Front-end Projects</label><br>
+      <input id="" name ="Back-end Projects" type="checkbox" value="Back">
+      <label>Back-end Projects</label><br>
+      <input id="" name ="Data Visualization" type="checkbox" value="Data">
+      <label>Data Visualization</label><br>
+      <input id="" name ="Challenges" type="checkbox" value="Challenges">
+      <label>Challenges</label><br>
+      <input id="" name ="Open Source Community" type="checkbox" value="Open">
+      <label>Open Source Community</label><br>
+      <input id="" name ="Gitter help rooms" type="checkbox" value="Gitter">
+      <label>Gitter help rooms</label><br>
+      <input id="" name ="Videos" type="checkbox" value="Videos">
+      <label>Videos</label><br>
+      <input id="" name ="City Meetups" type="checkbox" value="City">
+      <label>City Meetups</label><br>
+      <input id="" name ="Wiki" type="checkbox" value="Wiki">
+      <label>Wiki</label><br>
+      <input id="" name ="Forum" type="checkbox" value="Forum">
+      <label>Forum</label><br>
+      <input id="" name ="Additional Courses" type="checkbox" value="Additional">
+      <label>Additional Courses</label>
+      </section>
+
+      <label class="label">Any comments or suggestions?</label>
+     <textarea id="textarea" name="">Enter your comment here...</textarea><br>
+     <button id="submit" type="submit" >Submit</button>
+
+  </form>
+</main>
+</body>
+</html>
